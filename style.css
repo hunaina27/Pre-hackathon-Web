@@ -1,23 +1,119 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-      font-family: "Poppins", sans-serif;
+
+body {
+    font-family: "Poppins", sans-serif;
 }
+
 /* navbar */
-.custom-navbr{
+.custom-navbr {
     border: 0.7px solid rgba(196, 196, 196, 1)
 }
-.custom-logo{
-color: rgba(16, 144, 203, 1);
-}
-.custom-active-link{
+
+.custom-logo {
     color: rgba(16, 144, 203, 1);
 }
-.btun{
-    background: rgba(16, 144, 203, 1);
-color: rgba(255, 255, 255, 1);
 
+.custom-active-link {
+    color: rgba(16, 144, 203, 1);
+}
+
+.btun {
+    background: rgba(16, 144, 203, 1);
+    color: rgba(255, 255, 255, 1);
+
+}
+.btun:hover{
+ background: rgb(3, 126, 183);
+    color: rgba(255, 255, 255, 1);
+}
+
+/* hero section */
+
+.hero-section {
+    background: rgba(16, 144, 203, 0.1);
+
+}
+
+/* .line-height {
+    line-height: ;
+}
+
+@media (min-width:0px) and (max-width: 767px) {
+    .line-height {
+        line-height: ;
+    }
+
+} */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: rgba(0, 0, 0, 1);
+}
+
+
+.hero-text h1{
+    
+    
+}
+.hero-text span {
+    color: rgba(16, 144, 203, 1);
+}
+
+.custom-btun {
+    color: rgba(16, 144, 203, 1);
+    background: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    border: 1px solid rgba(16, 144, 203, 1)
+
+}
+
+.custom-btun:hover {
+   background: rgba(16, 144, 203, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.card-body-p{
+ 
+
+}
+
+/* section 2 */
+.section-2 h3{
+    
+}
+.section-2 p{
+font-size: 15px;
+color: rgba(150, 150, 150, 1);
+
+}
+
+.vector1-bg{
+background: rgba(239, 234, 255, 1);
+border-radius: 20px;
+
+}
+.vector2-bg{
+background: rgba(236, 255, 218, 1);
+border-radius: 20px;
+
+}
+.vector3-bg{
+background: rgba(218, 230, 255, 1);
+border-radius: 20px;
+
+}
+.vector4-bg{
+background: rgba(255, 229, 218, 1);
+border-radius: 20px;
+
+}
+.line{
+    border: 0.7px solid rgba(199, 199, 199, 1)
 }
