@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+      font-family: "Poppins", sans-serif;
+}
+/* navbar */
+.custom-navbr{
+    border: 0.7px solid rgba(196, 196, 196, 1)
+}
+.custom-logo{
+color: rgba(16, 144, 203, 1);
+}
+.custom-active-link{
+    color: rgba(16, 144, 203, 1);
+}
+.btun{
+    background: rgba(16, 144, 203, 1);
+color: rgba(255, 255, 255, 1);
+
+}
