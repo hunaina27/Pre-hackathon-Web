@@ -24,6 +24,7 @@ body {
 .btun {
     background: rgba(16, 144, 203, 1);
     color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
 
 }
 .btun:hover{
@@ -38,16 +39,6 @@ body {
 
 }
 
-/* .line-height {
-    line-height: ;
-}
-
-@media (min-width:0px) and (max-width: 767px) {
-    .line-height {
-        line-height: ;
-    }
-
-} */
 
 h1,
 h2,
@@ -57,11 +48,6 @@ h5 {
     color: rgba(0, 0, 0, 1);
 }
 
-
-.hero-text h1{
-    
-    
-}
 .hero-text span {
     color: rgba(16, 144, 203, 1);
 }
@@ -75,18 +61,21 @@ h5 {
 }
 
 .custom-btun:hover {
-   background: rgba(16, 144, 203, 1);
+   background: rgb(154, 160, 162);
     color: rgba(255, 255, 255, 1);
 }
 
-.card-body-p{
- 
 
+/* para lineheight of all sections */
+.para-lineheight{
+color: rgba(84, 84, 84, 1);
+line-height: 170%;
 }
+
 
 /* section 2 */
 .section-2 h3{
-    
+   font-size: 20px;
 }
 .section-2 p{
 font-size: 15px;
@@ -116,4 +105,77 @@ border-radius: 20px;
 }
 .line{
     border: 0.7px solid rgba(199, 199, 199, 1)
+}
+
+/* section 3  */
+.para-color {
+    color: rgba(134, 134, 134, 1);
+
+}
+.section-3 h2{    
+color: rgba(37, 37, 37, 1);
+
+}
+
+/* section 4 and 5 */
+.happy-bg {
+    background: rgba(8, 211, 187, 1);
+
+}
+.happy-bg2{
+background: rgba(16, 144, 203, 1);
+}
+
+/* section 7 */
+.custom-card-body1 {
+  background: rgba(244, 244, 244, 1);
+  color: rgba(37, 37, 37, 1);
+  border-radius: 20px;
+}
+
+.custom-card-body2 {
+  background: rgba(16, 144, 203, 1);
+  color: rgba(255, 255, 255, 1);
+  border-radius: 20px;
+}
+.custom-card-body2 h5{
+color: rgba(255, 255, 255, 1);
+
+}
+.btun {
+  border-radius: 8px;
+  background-color: rgba(16, 144, 203, 1);
+  color: #fff;
+  border: none;
+}
+
+.custom-card-body2 .btun {
+  background-color: #fff;
+  color: rgba(16, 144, 203, 1);
+}
+
+/* footer section */
+.footer-section {
+  background: rgba(38, 50, 56, 1);
+  color:rgba(245, 247, 250, 1);
+  width: 100%;
+ 
+}
+
+.footer-section h3 {
+  color:rgba(245, 247, 250, 1);
+
+}
+
+.footer-section p,
+.footer-section a,
+.footer-section li{
+
+  color:rgba(245, 247, 250, 1);
+
+}
+
+.footer-section ul {
+  padding-left: 0;
+  list-style: none;
 }

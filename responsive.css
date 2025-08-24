@@ -1,0 +1,65 @@
+/* media queries */
+
+/* hero section */
+h1{
+    font-size: 35px;
+}
+
+@media (min-width:0px) and (max-width: 767px) {
+    h1 {
+       font-size: 23px;
+    }
+
+} 
+
+
+.h1-para {
+line-height: 204%;
+}
+
+@media (min-width:0px) and (max-width: 767px) {
+    .h1-para  {
+        line-height:170% ;
+    }
+
+} 
+
+/* h1 lineheight */
+.line-height {
+    line-height: 52px;
+}
+
+@media (min-width:0px) and (max-width: 767px) {
+    .line-height {
+        line-height:32px ;
+    }
+
+}
+
+
+/* section 7*/
+.card-para{
+font-size: 15px;
+line-height: 170%;
+}
+
+@media (min-width:0px) and (max-width: 767px) {
+   
+.card-para{
+font-size: 14px;
+line-height: 170%;
+}
+
+} 
+
+.custom-lh{
+    line-height: 40px;
+}
+
+@media (min-width:0px) and (max-width: 767px) {
+   
+.custom-lh{
+    line-height: 30px;
+}
+
+} 
